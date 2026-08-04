@@ -66,6 +66,10 @@
       "name": "Event General",
       "help": ""
     },
+    "Coalition": {
+      "name": "Authentic Horror Story",
+      "help": ""
+    },
     "Event": {
       "name": "Event",
       "help": ""
@@ -82,17 +86,13 @@
       "name": "Valley Hospital",
       "help": ""
     },
-    "Coalition": {
-      "name": "Frostfall",
-      "help": ""
-    },
-    "MaritimeEscort": {
-      "name": "Maritime Escort",
-      "help": ""
-    },
     "WarArchives": {
       "name": "War Archives",
       "help": "Due to the lack of maintenance of war archives, continuous clear may not work normally, if Alas runs abnormally, Please manually finish clearing and use auto search"
+    },
+    "CoalitionSp": {
+      "name": "Authentic Horror Story SP",
+      "help": ""
     },
     "EventA": {
       "name": "Event Daily A",
@@ -116,10 +116,6 @@
     },
     "RaidDaily": {
       "name": "Raid Daily",
-      "help": ""
-    },
-    "CoalitionSp": {
-      "name": "Frostfall SP",
       "help": ""
     },
     "Commission": {
@@ -689,6 +685,7 @@
       "coalition_20250626": "The Neon City Investigator",
       "coalition_20251120": "DATE A LANE",
       "coalition_20260122": "Light & Shadow Fashion Shoot!",
+      "coalition_20260723": "Authentic Horror Story",
       "event_20200227_cn": "Northern Overture",
       "event_20200312_cn": "The Solomon Ranger Rerun",
       "event_20200326_cn": "Microlayer Medley",
@@ -1337,16 +1334,6 @@
       "help": "If turned off, you need to manually prepare fleets of all 15 stages in advance"
     }
   },
-  "MaritimeEscort": {
-    "_info": {
-      "name": "Maritime Escort",
-      "help": "Enter then retreat, get about 70% of maximum rewards"
-    },
-    "Enable": {
-      "name": "Enable maritime Escort",
-      "help": ""
-    }
-  },
   "Coalition": {
     "_info": {
       "name": "Event Settings",
@@ -1355,11 +1342,10 @@
     "Mode": {
       "name": "Mode",
       "help": "SP needs to use event daily SP to run",
-      "tc1": "tc1",
-      "tc2": "tc2",
-      "tc3": "tc3",
-      "sp": "sp",
-      "ex": "ex"
+      "easy": "EASY",
+      "normal": "NORMAL",
+      "hard": "HARD",
+      "sp": "SP"
     },
     "Fleet": {
       "name": "Fleet",
